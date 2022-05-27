@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<meta charset="utf-8">
+	<title>What is a TO-DO list</title>
+	<link rel="icon" type="image/x-icon" href="Add List_25px.png">
+
+	<style type="text/css">
+*{box-sizing: border-box;}
+body{margin: 0;
+	background: lightblue;
+	font-family: arial;
+	font-size: 1vw;
+}
+	.header img{width: 100%;
+		height: 280px;
+	}
+.mainimage {
+  background-image: linear-gradient(rgba(0, 0, 70, 0.5), rgba(0, 0, 70, 0.5)), url("To do list icon/what is.jpg");
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  position: relative;
+  margin-top: -10px;
+}
+
+.mainimage .content{
+  color: white;
+  padding: 20px;
+  text-shadow: 1px 2px 3px black;
+
+}
+.mainimage .content h1{font-size: 10vw;
+	padding: 40px;
+	text-align: right;
+	
+}
+.row{display: flex;
+}
+.column1{width: 30.5%;
+  height: 180px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 25px;
+  background: #330033;
+  color: white;
+  box-shadow: 0px 0px  30px #fff;
+  }
+
+.column1 img{
+  width: 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.app{width: 50%;
+	height: auto;
+	margin: auto;
+	padding: 25px;
+	background: white;
+	color: #330033;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 30px #330033 ;
+}
+.app li{padding: 20px;
+
+	list-style: none;
+}
+.app img{width: 25px;
+}
+
+button{background: #330033;
+	color: white;
+	padding: 15px;
+	margin-right: auto;
+	margin-left: 40%;
+	border-radius: 5px;
+	border: none;
+}
+button:hover{font-weight: bold;
+	opacity: 0.8;
+}
+
+.footer {
+   width: 100%;
+   background-color:  #001a1a;
+   color: white;
+    text-align: center;
+   padding: 25px;
+}
+
+.footer a{
+  
+   color: white;
+}
+
+.footer img{width: 50px;
+    margin:  15px;
+}
+ @media screen and (max-width: 625px) {
+ 	body{font-size: 12px;
+ 	}
+ 	
+ .row{display: block;
+ }
+ .column1{width: 90%;
+ 	height: 200px;
+}
+
+ .app{width: 85%;
+ 	
+ }
+}
+
+
+</style>
+</head>
+<body>
+	<div class="header">
+		<img src="istockphoto-116772376-612x612.jpg">
+	</div>
+<div class="mainimage">
+	<div class="content">
+		<h1> WHAT <br> IS A <br>TO-DO LIST ?</h1>
+
+	</div>
+</div>
+
+<div class="row">
+	
+	<div class="column1">
+		<img src="Add List_48px.png">
+		<p>Its is a list of task which one wants to accomplish. <br>
+			<i>For instance: No, I'm yet to buy the gift but it's on my <b>To-Do List</b></i></p>
+	</div>
+
+	<div class="column1">
+		<img src="Ingredients List_50px.png">
+		<p>A<b> To-Do List</b> gives opportunity to arrange your tasks with the most important task at the top</p>
+	</div>
+
+		<div class="column1">
+			<img src="Add List_52px.png">
+			<p>With a <b>To-Do List</b>, you can prioritize the things you need to do, keep track of what still needs to be finised. </p>
+		</div>
+		</div>
+
+		<hr>
+
+		<div class="app">
+			<li> <img src="Checkmark_52px.png">
+				With the application of Javascript, I built a <b>To-Do List</b> Web App</li>
+				<li> <img src="Checkmark_52px.png">Save the page for offline use
+				</li>
+				<li> <img src="Checkmark_52px.png">
+				Highlight accomplished tasked with a click</li>
+				<li> <img src="Checkmark_52px.png">
+				Remove a task by using the delete button at the right side </li>
+				
+<button onclick="Newpage()">Use App</button>
+</div>
+<div class="footer">
+    <p> Built by <a href="https://github.com/Olasupotomiwa">Tomiwa Olasupo</a></p>
+
+     <a href="https://www.facebook.com/tomiwa.olasupo.1"> <img src="Facebook_48px.png" style="width: 40px;"> </a>
+    <a href="https://wa.me/+2348076312290"> <img src="WhatsApp_40px.png" style="width: 40px;"> </a>
+    <a href="https://twitter.com/Tomiwaolasupo_"> <img src="Twitter_48px.png" style="width: 40px;"> </a>
+
+
+<script type="text/javascript">
+
+function Newpage(){
+	window.location = 'To Do List.html'
+}
+</script>
+</body>
+</html>
