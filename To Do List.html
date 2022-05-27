@@ -88,7 +88,7 @@ body{background-color: #ffccff;
 
 }
 
-.Addbtn{ padding: 10px;
+.Addbtn{ padding: 6px;
 	font-weight: bold;
   width: 25%;
   background: #d9d9d9;
@@ -306,7 +306,7 @@ ul li.checked {
 
 
 <div class="form-popup" id="myForm">
-  <form action="https://formsubmit.co/tomiwaolasupo@gmail.com" method="POST" class="form-container" onsubmit="mySubmit()">
+  <form action="https://formsubmit.co/tomiwaolasupo@gmail.com" method="POST" class="form-container">
     
     
     <label for="name"><b>Name</b></label>
@@ -322,7 +322,7 @@ ul li.checked {
 
      <input type="hidden" name="_next" value="https://olasupotomiwa.github.io/To-do-list/">
      <input type="hidden" name="_captcha" value="false">
-     <button type="submit" class="btn">Submit</button>
+     <button type="submit" class="btn" onsubmit="mySubmit()">Submit</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
